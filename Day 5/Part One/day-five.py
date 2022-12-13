@@ -41,7 +41,7 @@ def move_boxes(box_list, count, from_index, to_index):
     print_full_stack(box_list)
     return box_list
 
-with open("part-5-data.txt") as in_list:
+with open("day-5-data.txt") as in_list:
     os.system("cls")
     box_rows = []
     box_cols = []
